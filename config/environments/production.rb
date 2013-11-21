@@ -81,4 +81,8 @@ Pinteresting::Application.configure do
   # Required for Devise
   # Note to set this to your actual host not localhost 3000
   config.action_mailer.default_url_options = { :host => 'http://pbpinteresting.herokuapp.com/' }
+
+  Paperclip.options[:command_path] = 'C:\ImageMagick-6.8.7-Q16'
+
+
 end
